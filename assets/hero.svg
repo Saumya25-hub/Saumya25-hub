@@ -1,81 +1,91 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 210" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 240" width="100%" height="100%">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#090d16" />
-      <stop offset="50%" stop-color="#0d1117" />
-      <stop offset="100%" stop-color="#0a0f1d" />
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a12" />
+      <stop offset="50%" stop-color="#0c1017" />
+      <stop offset="100%" stop-color="#080c14" />
     </linearGradient>
-    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="heroTitle" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#58a6ff" />
       <stop offset="50%" stop-color="#38bdf8" />
       <stop offset="100%" stop-color="#a5f3fc" />
     </linearGradient>
-    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.3" />
-    </linearGradient>
     <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6" />
-      <stop offset="50%" stop-color="#30363d" />
-      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.4" />
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.7" />
+      <stop offset="50%" stop-color="#30363d" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.6" />
     </linearGradient>
-    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#30363d" stroke-width="0.5" stroke-opacity="0.35" />
+    <pattern id="techGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#30363d" stroke-width="0.5" stroke-opacity="0.3" />
     </pattern>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="blur" />
+    <filter id="heroGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
   </defs>
 
-  <!-- Background -->
-  <rect width="880" height="210" rx="12" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="1.5" />
-  
-  <!-- Tech Grid Background Pattern -->
-  <rect width="880" height="210" rx="12" fill="url(#grid)" />
+  <!-- Container -->
+  <rect width="880" height="240" rx="10" fill="url(#heroBg)" stroke="url(#borderGrad)" stroke-width="1.5" />
+  <rect width="880" height="240" rx="10" fill="url(#techGrid)" />
 
-  <!-- Ambient Glow Elements -->
-  <circle cx="800" cy="40" r="140" fill="#38bdf8" opacity="0.08" filter="url(#glow)" />
-  <circle cx="70" cy="180" r="110" fill="#6366f1" opacity="0.07" filter="url(#glow)" />
+  <!-- Ambient Light -->
+  <circle cx="820" cy="50" r="130" fill="#38bdf8" opacity="0.07" filter="url(#heroGlow)" />
+  <circle cx="90" cy="200" r="110" fill="#818cf8" opacity="0.06" filter="url(#heroGlow)" />
 
-  <!-- Terminal/Badge Header -->
-  <g transform="translate(36, 32)">
-    <rect width="180" height="24" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1" />
-    <circle cx="14" cy="12" r="4" fill="#38bdf8" />
-    <text x="26" y="16" fill="#7d8590" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" letter-spacing="1">SYSTEMS &amp; DESKTOP</text>
+  <!-- Architecture lines / Circuit Nodes -->
+  <path d="M 40 46 L 560 46 L 580 66 L 580 180" fill="none" stroke="#30363d" stroke-width="1" stroke-opacity="0.5" />
+  <circle cx="40" cy="46" r="3" fill="#38bdf8" />
+  <circle cx="580" cy="66" r="3" fill="#818cf8" />
+  <circle cx="580" cy="180" r="3" fill="#34d399" />
+
+  <!-- Top Status Badge -->
+  <g transform="translate(48, 28)">
+    <rect width="170" height="22" rx="11" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <circle cx="12" cy="11" r="3.5" fill="#34d399" />
+    <text x="24" y="15" fill="#7d8590" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" letter-spacing="0.8">ENGINEERING PORTFOLIO</text>
   </g>
 
   <!-- Main Name Title -->
-  <text x="36" y="98" fill="url(#textGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Display', Roboto, sans-serif" font-size="34" font-weight="800" letter-spacing="0.5">SAUMYA CHAUDHARI</text>
+  <text x="48" y="98" fill="url(#heroTitle)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" letter-spacing="0.5">SAUMYA CHAUDHARI</text>
 
-  <!-- Subtitle / Title -->
-  <text x="36" y="128" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="600" letter-spacing="0.2">Software &amp; Systems Developer</text>
+  <!-- Subtitle -->
+  <text x="48" y="128" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="600" letter-spacing="0.2">Software &amp; Systems Developer</text>
 
   <!-- Philosophy Quote -->
-  <text x="36" y="156" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400">“Building software because I enjoy understanding how things work.”</text>
+  <text x="48" y="160" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400">“Building software because I enjoy understanding how things work.”</text>
 
-  <!-- Quick Spec Badges on Right -->
-  <g transform="translate(620, 42)">
-    <rect width="220" height="126" rx="8" fill="#161b22" fill-opacity="0.85" stroke="#30363d" stroke-width="1" />
+  <!-- Micro Specs Tagline -->
+  <g transform="translate(48, 186)">
+    <rect width="90" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+    <text x="45" y="15" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">.NET 8 / C#</text>
     
-    <text x="16" y="24" fill="#58a6ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="0.5">CORE ARCHITECTURE</text>
-    
-    <g transform="translate(16, 40)">
-      <circle cx="4" cy="4" r="3" fill="#38bdf8" />
-      <text x="14" y="8" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500">Modular .NET 8 / C# Desktop</text>
-    </g>
-    
-    <g transform="translate(16, 64)">
-      <circle cx="4" cy="4" r="3" fill="#38bdf8" />
-      <text x="14" y="8" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500">Low-Level Systems &amp; C</text>
-    </g>
-    
-    <g transform="translate(16, 88)">
-      <circle cx="4" cy="4" r="3" fill="#38bdf8" />
-      <text x="14" y="8" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500">Multi-Platform &amp; Full-Stack</text>
-    </g>
+    <rect x="98" y="0" width="82" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+    <text x="139" y="15" fill="#818cf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">SYSTEMS</text>
+
+    <rect x="188" y="0" width="80" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+    <text x="228" y="15" fill="#34d399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">KOTLIN</text>
+
+    <rect x="276" y="0" width="94" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+    <text x="323" y="15" fill="#fb923c" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">FULL-STACK</text>
   </g>
 
-  <!-- Bottom Accent Line -->
-  <rect x="36" y="186" width="808" height="1" fill="url(#borderGrad)" />
+  <!-- Right Side Architecture Spec Terminal Box -->
+  <g transform="translate(600, 36)">
+    <rect width="232" height="168" rx="8" fill="#161b22" fill-opacity="0.9" stroke="#30363d" stroke-width="1" />
+    
+    <rect x="0" y="0" width="232" height="28" rx="8" fill="#1c2128" />
+    <circle cx="16" cy="14" r="4" fill="#ff5f56" />
+    <circle cx="28" cy="14" r="4" fill="#ffbd2e" />
+    <circle cx="40" cy="14" r="4" fill="#27c93f" />
+    <text x="130" y="18" fill="#7d8590" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">SYS_DISPATCH.IO</text>
+
+    <g transform="translate(16, 44)">
+      <text x="0" y="10" fill="#58a6ff" font-family="Consolas, Monaco, monospace" font-size="11" font-weight="600">> ARCH: N-Tier Modular</text>
+      <text x="0" y="30" fill="#c9d1d9" font-family="Consolas, Monaco, monospace" font-size="11">> CORE: Desktop &amp; LowLevel</text>
+      <text x="0" y="50" fill="#c9d1d9" font-family="Consolas, Monaco, monospace" font-size="11">> DATA: SQLite / Relational</text>
+      <text x="0" y="70" fill="#c9d1d9" font-family="Consolas, Monaco, monospace" font-size="11">> UI: Decoupled Engines</text>
+      <text x="0" y="90" fill="#34d399" font-family="Consolas, Monaco, monospace" font-size="11">> STATUS: Production Active</text>
+      <text x="0" y="110" fill="#8b949e" font-family="Consolas, Monaco, monospace" font-size="10.5">// Ready for inspection</text>
+    </g>
+  </g>
 </svg>
