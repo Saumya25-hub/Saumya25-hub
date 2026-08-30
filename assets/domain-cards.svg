@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </linearGradient>
+    <linearGradient id="accent1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#58a6ff" />
+    </linearGradient>
+    <linearGradient id="accent2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+    <linearGradient id="accent3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#2dd4bf" />
+    </linearGradient>
+    <linearGradient id="accent4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fb923c" />
+      <stop offset="100%" stop-color="#f43f5e" />
+    </linearGradient>
+  </defs>
+
+  <!-- Card 1: Desktop & Enterprise -->
+  <g transform="translate(0, 0)">
+    <rect width="430" height="112" rx="8" fill="url(#cardGrad1)" stroke="#30363d" stroke-width="1" />
+    <rect x="0" y="0" width="430" height="3" rx="1.5" fill="url(#accent1)" />
+    
+    <text x="20" y="30" fill="#58a6ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" letter-spacing="0.5">DESKTOP &amp; ENTERPRISE SOFTWARE</text>
+    <text x="20" y="52" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400">N-Tier modular architecture, decoupled engines, custom UI</text>
+    <text x="20" y="70" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400">theme engines, offline SQLite, ERP &amp; payroll pipelines.</text>
+    
+    <text x="20" y="96" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">STACK: .NET 8 · C# · WinForms · WPF · SQLite</text>
+  </g>
+
+  <!-- Card 2: Low-Level & Systems -->
+  <g transform="translate(450, 0)">
+    <rect width="430" height="112" rx="8" fill="url(#cardGrad1)" stroke="#30363d" stroke-width="1" />
+    <rect x="0" y="0" width="430" height="3" rx="1.5" fill="url(#accent2)" />
+    
+    <text x="20" y="30" fill="#818cf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" letter-spacing="0.5">SYSTEMS &amp; LOW-LEVEL ARCHITECTURE</text>
+    <text x="20" y="52" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400">Bare-metal concepts, modular OS design, memory management,</text>
+    <text x="20" y="70" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400">custom interrupt handling &amp; hardware abstractions.</text>
+    
+    <text x="20" y="96" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">STACK: C · C++ · x86-64 Assembly · Hardware Interfacing</text>
+  </g>
+
+  <!-- Card 3: Mobile & Multi-Platform -->
+  <g transform="translate(0, 128)">
+    <rect width="430" height="112" rx="8" fill="url(#cardGrad1)" stroke="#30363d" stroke-width="1" />
+    <rect x="0" y="0" width="430" height="3" rx="1.5" fill="url(#accent3)" />
+    
+    <text x="20" y="30" fill="#34d399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" letter-spacing="0.5">MOBILE &amp; MULTI-PLATFORM</text>
+    <text x="20" y="52" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400">Native Android engineering, cross-platform client development,</text>
+    <text x="20" y="70" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400">media players, state-driven UI &amp; local cache stores.</text>
+    
+    <text x="20" y="96" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">STACK: Kotlin · Android Native · Flutter · Dart</text>
+  </g>
+
+  <!-- Card 4: Full-Stack & Web Platforms -->
+  <g transform="translate(450, 128)">
+    <rect width="430" height="112" rx="8" fill="url(#cardGrad1)" stroke="#30363d" stroke-width="1" />
+    <rect x="0" y="0" width="430" height="3" rx="1.5" fill="url(#accent4)" />
+    
+    <text x="20" y="30" fill="#fb923c" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" letter-spacing="0.5">FULL-STACK &amp; WEB PLATFORMS</text>
+    <text x="20" y="52" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400">Transactional backends, role-based admin portals, schema</text>
+    <text x="20" y="70" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400">design, document generation &amp; enterprise web frontends.</text>
+    
+    <text x="20" y="96" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">STACK: PHP · MySQL · JavaScript · CSS3 · HTML5</text>
+  </g>
+</svg>
