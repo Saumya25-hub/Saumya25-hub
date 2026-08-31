@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 140" width="100%" height="100%">
+  <defs>
+    <linearGradient id="emsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </linearGradient>
+    <linearGradient id="emsAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#58a6ff" />
+    </linearGradient>
+  </defs>
+
+  <rect width="880" height="140" rx="8" fill="url(#emsGrad)" stroke="#30363d" stroke-width="1" />
+  <rect x="0" y="0" width="4" height="140" rx="2" fill="url(#emsAccent)" />
+
+  <text x="24" y="32" fill="#58a6ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700">SIGNATURES EMS</text>
+  <text x="175" y="32" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">/ Commercial Offline Desktop Software</text>
+  
+  <g transform="translate(540, 16)">
+    <rect width="64" height="20" rx="4" fill="#0d1117" stroke="#38bdf8" stroke-width="0.8" />
+    <text x="32" y="14" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">C#</text>
+    
+    <rect x="70" y="0" width="70" height="20" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="0.8" />
+    <text x="105" y="14" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">.NET 8</text>
+
+    <rect x="146" y="0" width="84" height="20" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="0.8" />
+    <text x="188" y="14" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">WINFORMS</text>
+
+    <rect x="236" y="0" width="76" height="20" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="0.8" />
+    <text x="274" y="14" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">SQLITE</text>
+  </g>
+
+  <text x="24" y="62" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="500">Commercial-grade Offline Employee &amp; Payroll Management System</text>
+  <text x="24" y="82" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400">Architected with an 8-layer decoupled N-tier engine (BOS.Core, BOS.Engine, BOS.Database, BOS.Services, BOS.ThemeEngine, BOS.Controls).</text>
+  <text x="24" y="100" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400">Features multi-session payroll calculation, daily production logs, employee advances, custom theme engine &amp; multi-format export pipelines.</text>
+
+  <g transform="translate(24, 116)">
+    <text x="0" y="12" fill="#58a6ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700">EXPLORE ARCHITECTURE &amp; SOURCE CODE &#8594;</text>
+  </g>
+</svg>
