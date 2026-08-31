@@ -4,11 +4,11 @@
 
 <br/>
 
-### `// IDENTITY & PHILOSOPHY`
+### `// DEVELOPER TERMINAL SESSION`
 
-I am a software developer and builder who creates software because I love the craft of understanding and constructing systems from first principles. 
-
-My work spans high-performance Windows desktop applications, decoupled business engines, native mobile apps, relational databases, and low-level software. I care deeply about modular architecture, offline-first reliability, clean domain separation, and building tools that solve real problems.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Saumya25-hub/Saumya25-hub/main/assets/terminal.svg" alt="Developer Terminal Console" width="100%" />
+</div>
 
 <br/>
 
@@ -21,7 +21,13 @@ My work spans high-performance Windows desktop applications, decoupled business 
 ### `01 / CORE ENGINEERING ARCHITECTURE`
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Saumya25-hub/Saumya25-hub/main/assets/domain-cards.svg" alt="Core Engineering Architecture" width="100%" />
+  <img src="https://raw.githubusercontent.com/Saumya25-hub/Saumya25-hub/main/assets/architecture-flow.svg" alt="Architecture Data Flow" width="100%" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Saumya25-hub/Saumya25-hub/main/assets/domain-cards.svg" alt="Core Engineering Domains" width="100%" />
 </div>
 
 <br/>
@@ -92,12 +98,16 @@ My work spans high-performance Windows desktop applications, decoupled business 
 <br/>
 
 <div align="center">
-  <a href="https://github.com/Saumya25-hub">
-    <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <a href="https://github.com/Saumya25-hub" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Saumya25--hub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/saumya-chaudhari-520197347/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Saumya_Chaudhari-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" />
   </a>
   &nbsp;&nbsp;
   <a href="mailto:saumyachaudhari25@outlook.com">
-    <img src="https://img.shields.io/badge/Email-Direct_Contact-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-Direct_Contact-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="Email Direct Contact" />
   </a>
 </div>
 
