@@ -13,11 +13,9 @@
   <rect width="880" height="140" rx="8" fill="url(#webGrad)" stroke="#30363d" stroke-width="1" />
   <rect x="0" y="0" width="4" height="140" rx="2" fill="url(#webAccent)" />
 
-  <!-- Title & Category -->
   <text x="24" y="32" fill="#34d399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700">SIGNATURES ERP SUITE WEB</text>
   <text x="270" y="32" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">/ Presentation Interfaces &amp; Release Channels</text>
   
-  <!-- Tech Pills -->
   <g transform="translate(560, 16)">
     <rect width="76" height="20" rx="4" fill="#0d1117" stroke="#34d399" stroke-width="0.8" />
     <text x="38" y="14" fill="#6ee7b7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">HTML5/CSS</text>
@@ -29,13 +27,11 @@
     <text x="237" y="14" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">SPECIFICATIONS</text>
   </g>
 
-  <!-- Description -->
   <text x="24" y="62" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="500">Customer Portals &amp; ERP V2 Release Channels</text>
   <text x="24" y="82" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400">Public web portals, technical system architecture specifications, distributor software showcases, and Windows installer</text>
   <text x="24" y="100" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400">deployment pipelines for the Signatures ERP commercial platform suite.</text>
 
-  <!-- Footer Link Tag -->
   <g transform="translate(24, 116)">
-    <text x="0" y="12" fill="#34d399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700">EXPLORE WEB PORTAL &amp; DOCS →</text>
+    <text x="0" y="12" fill="#34d399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700">EXPLORE WEB PORTAL &amp; DOCS &#8594;</text>
   </g>
 </svg>
