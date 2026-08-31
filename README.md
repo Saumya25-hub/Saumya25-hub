@@ -55,7 +55,7 @@
 
 <div align="center">
   <a href="https://github.com/Saumya25-hub/Signatures-EMS">
-    <img src="https://raw.githubusercontent.com/Saumya25-hub/Saumya25-hub/main/assets/project-card-ems.svg" alt="Signatures EMS - Desktop Business Software" width="100%" />
+    <img src="https://raw.githubusercontent.com/Saumya25-hub/Saumya25-hub/main/assets/project-ems.svg" alt="Signatures EMS - Desktop Business Software" width="100%" />
   </a>
 </div>
 
