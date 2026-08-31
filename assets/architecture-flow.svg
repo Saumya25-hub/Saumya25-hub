@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 74" width="100%" height="100%">
+  <defs>
+    <style>
+      @keyframes pulseNode {
+        0%, 100% { stroke-opacity: 0.4; }
+        50% { stroke-opacity: 1; }
+      }
+      @keyframes flowRight {
+        0% { stroke-dashoffset: 32; }
+        100% { stroke-dashoffset: 0; }
+      }
+      .flow-line { stroke-dasharray: 4 4; animation: flowRight 1.5s linear infinite; }
+      .node-pulse { animation: pulseNode 3s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <rect width="880" height="74" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+
+  <!-- Node 1: UI & Presentation -->
+  <g transform="translate(18, 16)">
+    <rect width="138" height="42" rx="6" fill="#0d1117" stroke="#38bdf8" stroke-width="1" class="node-pulse" />
+    <text x="69" y="18" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">UI &amp; CLIENT LAYER</text>
+    <text x="69" y="32" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" text-anchor="middle">WinForms / WPF / Web</text>
+  </g>
+
+  <!-- Flow Line 1 -> 2 -->
+  <path d="M 156 37 L 194 37" fill="none" stroke="#38bdf8" stroke-width="1.5" class="flow-line" />
+  <polygon points="196,37 190,34 190,40" fill="#38bdf8" />
+
+  <!-- Node 2: Domain Services -->
+  <g transform="translate(198, 16)">
+    <rect width="144" height="42" rx="6" fill="#0d1117" stroke="#818cf8" stroke-width="1" class="node-pulse" />
+    <text x="72" y="18" fill="#818cf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">DOMAIN SERVICES</text>
+    <text x="72" y="32" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" text-anchor="middle">Payroll / Accounting / Auth</text>
+  </g>
+
+  <!-- Flow Line 2 -> 3 -->
+  <path d="M 342 37 L 380 37" fill="none" stroke="#818cf8" stroke-width="1.5" class="flow-line" />
+  <polygon points="382,37 376,34 376,40" fill="#818cf8" />
+
+  <!-- Node 3: Core Modular Engine -->
+  <g transform="translate(384, 16)">
+    <rect width="146" height="42" rx="6" fill="#0d1117" stroke="#34d399" stroke-width="1" class="node-pulse" />
+    <text x="73" y="18" fill="#34d399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">CORE ENGINE (BOS)</text>
+    <text x="73" y="32" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" text-anchor="middle">N-Tier Business Logic</text>
+  </g>
+
+  <!-- Flow Line 3 -> 4 -->
+  <path d="M 530 37 L 568 37" fill="none" stroke="#34d399" stroke-width="1.5" class="flow-line" />
+  <polygon points="570,37 564,34 564,40" fill="#34d399" />
+
+  <!-- Node 4: Persistence Layer -->
+  <g transform="translate(572, 16)">
+    <rect width="138" height="42" rx="6" fill="#0d1117" stroke="#fb923c" stroke-width="1" class="node-pulse" />
+    <text x="69" y="18" fill="#fb923c" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">DATA PERSISTENCE</text>
+    <text x="69" y="32" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" text-anchor="middle">SQLite / MySQL / Files</text>
+  </g>
+
+  <!-- Flow Line 4 -> 5 -->
+  <path d="M 710 37 L 748 37" fill="none" stroke="#fb923c" stroke-width="1.5" class="flow-line" />
+  <polygon points="750,37 744,34 744,40" fill="#fb923c" />
+
+  <!-- Node 5: Native Platform -->
+  <g transform="translate(752, 16)">
+    <rect width="110" height="42" rx="6" fill="#0d1117" stroke="#38bdf8" stroke-width="1" class="node-pulse" />
+    <text x="55" y="18" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">SYSTEM / OS</text>
+    <text x="55" y="32" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" text-anchor="middle">Native Hardware</text>
+  </g>
+</svg>
