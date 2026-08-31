@@ -13,11 +13,9 @@
   <rect width="880" height="140" rx="8" fill="url(#emsGrad)" stroke="#30363d" stroke-width="1" />
   <rect x="0" y="0" width="4" height="140" rx="2" fill="url(#emsAccent)" />
 
-  <!-- Title & Category -->
   <text x="24" y="32" fill="#58a6ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700">SIGNATURES EMS</text>
   <text x="175" y="32" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">/ Commercial Offline Desktop Software</text>
   
-  <!-- Tech Pills -->
   <g transform="translate(540, 16)">
     <rect width="64" height="20" rx="4" fill="#0d1117" stroke="#38bdf8" stroke-width="0.8" />
     <text x="32" y="14" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">C#</text>
@@ -32,13 +30,11 @@
     <text x="274" y="14" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">SQLITE</text>
   </g>
 
-  <!-- Description -->
   <text x="24" y="62" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="500">Commercial-grade Offline Employee &amp; Payroll Management System</text>
   <text x="24" y="82" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400">Architected with an 8-layer decoupled N-tier engine (BOS.Core, BOS.Engine, BOS.Database, BOS.Services, BOS.ThemeEngine, BOS.Controls).</text>
   <text x="24" y="100" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400">Features multi-session payroll calculation, daily production logs, employee advances, custom theme engine &amp; multi-format export pipelines.</text>
 
-  <!-- Footer Link Tag -->
   <g transform="translate(24, 116)">
-    <text x="0" y="12" fill="#58a6ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700">EXPLORE ARCHITECTURE &amp; SOURCE CODE →</text>
+    <text x="0" y="12" fill="#58a6ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700">EXPLORE ARCHITECTURE &amp; SOURCE CODE &#8594;</text>
   </g>
 </svg>
