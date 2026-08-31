@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 215" width="100%" height="100%">
+  <defs>
+    <style>
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @keyframes pulseRing {
+        0% { r: 3; opacity: 1; stroke-width: 1; }
+        50% { r: 6; opacity: 0; stroke-width: 2.5; }
+        100% { r: 3; opacity: 1; stroke-width: 1; }
+      }
+      .term-cursor { animation: blink 0.9s infinite; }
+      .status-pulse { animation: pulseRing 2s infinite; }
+    </style>
+    <linearGradient id="termBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="100%" stop-color="#070a10" />
+    </linearGradient>
+  </defs>
+
+  <!-- Terminal Window Frame -->
+  <rect width="880" height="215" rx="8" fill="url(#termBg)" stroke="#30363d" stroke-width="1.2" />
+
+  <!-- Terminal Header Bar -->
+  <rect width="880" height="30" rx="8" fill="#161b22" />
+  <rect y="22" width="880" height="8" fill="#161b22" />
+  <line x1="0" y1="30" x2="880" y2="30" stroke="#30363d" stroke-width="1" />
+
+  <!-- Mac-Style Window Controls -->
+  <circle cx="20" cy="15" r="4.5" fill="#ff5f56" />
+  <circle cx="34" cy="15" r="4.5" fill="#ffbd2e" />
+  <circle cx="48" cy="15" r="4.5" fill="#27c93f" />
+
+  <!-- Window Title -->
+  <text x="440" y="19" fill="#8b949e" font-family="Consolas, Monaco, monospace" font-size="11.5" font-weight="600" text-anchor="middle">bash — saumya@workstation:~ (zsh)</text>
+
+  <!-- Terminal Body Content -->
+  <g transform="translate(24, 52)" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="12">
+    <!-- Command 1 -->
+    <text x="0" y="0">
+      <tspan fill="#34d399" font-weight="700">saumya@workstation</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#58a6ff">~</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#e6edf3" font-weight="600">whoami</tspan>
+    </text>
+    <text x="0" y="18" fill="#8b949e">↳ Saumya Chaudhari · Software &amp; Systems Developer</text>
+
+    <!-- Command 2 -->
+    <text x="0" y="44">
+      <tspan fill="#34d399" font-weight="700">saumya@workstation</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#58a6ff">~</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#e6edf3" font-weight="600">cat /etc/core-architecture</tspan>
+    </text>
+    <text x="0" y="62" fill="#8b949e">↳ [.NET 8 / C# Desktop ERPs] · [Low-Level Systems] · [Mobile &amp; Web Platforms] · [SQLite Persistence]</text>
+
+    <!-- Command 3 -->
+    <text x="0" y="88">
+      <tspan fill="#34d399" font-weight="700">saumya@workstation</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#58a6ff">~</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#e6edf3" font-weight="600">systemctl status engineering-station</tspan>
+    </text>
+    
+    <!-- Service Status line with pulse -->
+    <g transform="translate(0, 106)">
+      <circle cx="4" cy="-4" r="3.5" fill="#34d399" />
+      <circle cx="4" cy="-4" r="3.5" fill="none" stroke="#34d399" class="status-pulse" />
+      <text x="14" y="0" fill="#34d399" font-weight="600">● engineering-station.service - Production &amp; Architecture Workstation</text>
+      <text x="14" y="16" fill="#8b949e">  Active: active (running) · Decoupled N-Tier Engine: BOS.Core (Operational)</text>
+    </g>
+
+    <!-- Active Terminal Prompt with Blinking Cursor -->
+    <text x="0" y="146">
+      <tspan fill="#34d399" font-weight="700">saumya@workstation</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#58a6ff">~</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#38bdf8">build --target=production</tspan>
+    </text>
+    <rect x="366" y="134" width="7.5" height="15" fill="#38bdf8" class="term-cursor" />
+  </g>
+</svg>
